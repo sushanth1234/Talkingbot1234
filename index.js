@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({
 app.set('port', (process.env.PORT || 3000))
 
 app.get('/', function(req, res) {
-  res.send('SuTestBot Server')
+  res.send('talkingbot Server')
 })
 
 function sendMessage(chat_id, message){
